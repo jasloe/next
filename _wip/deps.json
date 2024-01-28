@@ -1,0 +1,5 @@
+"@contentful/rich-text-react-renderer": "^15.19.0",
+"@contentful/rich-text-types": "^16.3.0",
+"contentful": "^10.6.12",
+"@supabase/auth-helpers-nextjs": "^0.8.7",
+"@supabase/supabase-js": "^2.39.0",

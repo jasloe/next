@@ -6,10 +6,10 @@ import React from 'react';
 
 import { Sitename } from './Sitename';
 
-export const Header = ({ mainNav }) => (
+export const Header = () => (
   <header>
     <div className="site-name">
-      <Sitename sitename={sitename} />
+      <Sitename data={sitename} />
     </div>
   </header>
 );

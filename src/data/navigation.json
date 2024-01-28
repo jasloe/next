@@ -1,0 +1,56 @@
+{
+  "sitename": [
+    { "name": "Website name", "url": "/", "id": "home" }
+  ],
+  "statement": [
+    { "name": "Statement" }
+  ],
+  "main": [
+    { "name": "About", "url": "/about", "id": "about" }
+  ],
+  "footer": {
+    "primary": [
+      {
+        "name": "About",
+        "id": "about",
+        "children": [
+          { "name": "Child 1", "url": "", "id": "child-1" },
+          { "name": "Child 2", "url": "", "id": "child-2" }
+        ]
+      },
+    ],
+    "social": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com",
+        "id": "instagram"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com",
+        "id": "facebook"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com",
+        "id": "youtube"
+      }
+    ],
+    "impressum": [
+      { "name": "© 2023", "id": "copyright" },
+      { "name": "Site credits", "url": "site-credits", "id": "/credits" },
+      {
+        "name": "Privacy",
+        "url":  "https://www.iubenda.com",
+        "id": "privacy"
+      }
+    ],
+    "address": [
+      { "name": "title", "id": "title" },
+      { "name": "", "id": "streetAddress1" },
+      { "name": "", "id": "streetAddress2" },
+      { "name": "", "id": "telephone" },
+      { "name": "", "id": "email" }
+    ]
+  }
+}
