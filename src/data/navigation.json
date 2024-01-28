@@ -3,10 +3,12 @@
     { "name": "Website name", "url": "/", "id": "home" }
   ],
   "statement": [
-    { "name": "Statement" }
+    { "description": "Statement" }
   ],
   "main": [
-    { "name": "About", "url": "/about", "id": "about" }
+    { "name": "About", "url": "/about", "id": "about" },
+    { "name": "External links", "url": "https://www/react.com", "id": "external-link" },
+    { "name": "No links", "url": "", "id": "no-link" }
   ],
   "footer": {
     "primary": [
@@ -17,7 +19,7 @@
           { "name": "Child 1", "url": "", "id": "child-1" },
           { "name": "Child 2", "url": "", "id": "child-2" }
         ]
-      },
+      }
     ],
     "social": [
       {
@@ -47,10 +49,10 @@
     ],
     "address": [
       { "name": "title", "id": "title" },
-      { "name": "", "id": "streetAddress1" },
-      { "name": "", "id": "streetAddress2" },
-      { "name": "", "id": "telephone" },
-      { "name": "", "id": "email" }
+      { "name": "street address 1", "id": "streetAddress1" },
+      { "name": "street address 2", "id": "streetAddress2" },
+      { "name": "telephone", "id": "telephone" },
+      { "name": "email", "id": "email" }
     ]
   }
 }

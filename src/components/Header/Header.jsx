@@ -4,12 +4,17 @@
 
 import React from 'react';
 
-import { Sitename } from './Sitename';
+import { Sitename } from '../Common/Sitename';
+import { MainMenu } from '../Menus/MainMenu';
 
-export const Header = () => (
-  <header>
-    <div className="site-name">
-      <Sitename data={sitename} />
-    </div>
-  </header>
-);
+export const Header = ({ main }) => {
+  console.log(main);
+  return (
+    <header>
+      <div className="sitename">
+        {/* <Sitename data={sitename} /> */}
+        <MainMenu menuItems={main} />
+      </div>
+    </header>
+  );
+};
